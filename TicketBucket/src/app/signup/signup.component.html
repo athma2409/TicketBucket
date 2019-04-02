@@ -1,0 +1,64 @@
+<ion-header>
+
+    <ion-toolbar>
+      <ion-icon name="arrow-round-back" color="primary" style="font-size:40px;float: left;left: 0;margin:0"
+        (click)="goback()"></ion-icon>
+  
+      <ion-title>
+       Signup
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content >
+    <ion-img class="center" src="assets/logo.jpeg" ></ion-img>
+
+  <ion-grid>
+    <ion-row justify-content-center>
+      <ion-col align-self-center >
+
+        <mat-card >
+          <div text-center>
+            <h4>Register here</h4>
+          </div>
+          <div padding>
+            <form class="example-form">
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Name">
+              </mat-form-field><br>
+              <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Mobile Number">
+                </mat-form-field><br>
+
+              <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Email">
+                </mat-form-field><br>
+
+                <mat-form-field class="example-full-width">
+                    <input matInput placeholder="Password">
+                  </mat-form-field><br>
+
+                  <mat-form-field class="example-full-width">
+                      <input matInput placeholder="Confirm Password">
+                    </mat-form-field><br>
+
+              
+
+              
+
+              <!-- <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+                                  <mat-button-toggle value="">Login</mat-button-toggle>
+                                </mat-button-toggle-group> -->
+                                <mat-checkbox color="primary">i agree to the <a>Terms and Conditions</a></mat-checkbox>
+                                <br><br>
+
+              <ion-button size="large" expand="block">Sign up</ion-button>
+
+            </form>
+          </div>
+        </mat-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
